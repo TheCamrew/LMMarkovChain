@@ -64,7 +64,7 @@ python generator_adv.py sample_text/jt.txt 4 patio
 #### Comando usado :
 
 ```console
-# Texto juego de tronos orden 2 palbra inicio 'brazo' 5 oraciones
+# Texto juego de tronos orden 2 palabra inicio 'brazo' 5 oraciones
 python generator_5.py sample_text/jt.txt brazo
 ```
 
