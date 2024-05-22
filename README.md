@@ -54,7 +54,7 @@ python generator_adv.py sample_text/jt.txt 7
 
 #### Salida:
 
-*Trató de arrastrarse hacia la tienda, pero Cohollo la agarró por el pelo y le puso un cuchillo contra la garganta.*
+- *Trató de arrastrarse hacia la tienda, pero Cohollo la agarró por el pelo y le puso un cuchillo contra la garganta.*
 
 #### Comando usado :
 
@@ -65,7 +65,7 @@ python generator_adv.py sample_text/jt.txt 4 patio
 
 #### Salida:
 
-*patio en dirección a sus habitaciones, situadas en la Torre del Lord Comandante, levantando la nieve a su paso.*
+- *patio en dirección a sus habitaciones, situadas en la Torre del Lord Comandante, levantando la nieve a su paso.*
 
 #### Comando usado :
 
