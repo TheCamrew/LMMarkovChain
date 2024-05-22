@@ -76,15 +76,15 @@ python generator_5.py sample_text/jt.txt brazo
 
 #### Salida:
 
-*brazo derecho, desde el risco más lejano, al otro lado de las ropas más abrigadas.*
+- *brazo derecho, desde el risco más lejano, al otro lado de las ropas más abrigadas.*
 
-*brazo extendido, más allá de esta historia igual que no diera crédito a las doncellas.*
+- *brazo extendido, más allá de esta historia igual que no diera crédito a las doncellas.*
 
-*brazo con tanta fuerza que tienes? —se mofó Mormont—. ¿Tan cerca del agua, pero sí con el ceño fruncido.*
+- *brazo con tanta fuerza que tienes? —se mofó Mormont—. ¿Tan cerca del agua, pero sí con el ceño fruncido.*
 
-*brazo muerto se salía con la parte superior de las lágrimas.*
+- *brazo muerto se salía con la parte superior de las lágrimas.*
 
-*brazo un y elmo blanco, el murciélago que era él.*
+- *brazo un y elmo blanco, el murciélago que era él.*
 
 # Instalación
 
