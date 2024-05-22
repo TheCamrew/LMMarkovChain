@@ -4,7 +4,8 @@
 
 El uso de las cadenas de Markov en la generación de lenguaje se basan en los *n-grams*, puesto que, una vez conozemos que palabras suelen estar cerca de otras en un texto, podemos crear un modelo estadístico, y predecir de esta forma, qué palabras pueden aparecer a continuación.
 
-Pueden existir de distintos órdenes según el número anterior de palabras que se tienen en cuenta para la predicción. Primer orden tendría en cuenta una palabra, segundo orden dos...
+Pueden existir de distintos órdenes según el número anterior de palabras que se tienen en cuenta para la predicción. Primer orden tendría en cuenta una palabra (Token -> Predicción), segundo orden dos (Token -> Token -> Predicción)...
+
 
 ### Ventajas e Inconvenientes
 
@@ -18,7 +19,7 @@ Pueden existir de distintos órdenes según el número anterior de palabras que 
 
 - No requiere datos etiquetados para entrenar al modelo ya que se basa en la frecuencia  de aparición de la secuencia de palabras 
 
-#### Desventajas:
+#### Inconvenientes:
 
 - Falta de coherencia en el texto generado ya que el modelo no tiene comprensión del contenido.
 
@@ -35,6 +36,49 @@ Pueden existir de distintos órdenes según el número anterior de palabras que 
 - Sugerencias en editores de textos (ejemplo práctico en teléfonos móviles).
 
 - Análisis y simulación de secuencias de caracteres en criptografía.
+
+# Ejemplos
+
+#### Comando usado :
+
+```console
+# Texto juego de tronos orden 7
+python generator_adv.py sample_text/jt.txt 7
+```
+
+#### Salida:
+
+*Trató de arrastrarse hacia la tienda, pero Cohollo la agarró por el pelo y le puso un cuchillo contra la garganta.*
+
+#### Comando usado :
+
+```console
+# Texto juego de tronos orden 4 palabra inicio 'patio'
+python generator_adv.py sample_text/jt.txt 4 patio
+```
+
+#### Salida:
+
+*patio en dirección a sus habitaciones, situadas en la Torre del Lord Comandante, levantando la nieve a su paso.*
+
+#### Comando usado :
+
+```console
+# Texto juego de tronos orden 2 palbra inicio 'brazo' 5 oraciones
+python generator_5.py sample_text/jt.txt brazo
+```
+
+#### Salida:
+
+*brazo derecho, desde el risco más lejano, al otro lado de las ropas más abrigadas.*
+
+*brazo extendido, más allá de esta historia igual que no diera crédito a las doncellas.*
+
+*brazo con tanta fuerza que tienes? —se mofó Mormont—. ¿Tan cerca del agua, pero sí con el ceño fruncido.*
+
+*brazo muerto se salía con la parte superior de las lágrimas.*
+
+*brazo un y elmo blanco, el murciélago que era él.*
 
 # Instalación
 
