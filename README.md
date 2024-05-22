@@ -4,7 +4,13 @@
 
 El uso de las cadenas de Markov en la generación de lenguaje se basan en los *n-grams*, puesto que, una vez conozemos que palabras suelen estar cerca de otras en un texto, podemos crear un modelo estadístico, y predecir de esta forma, qué palabras pueden aparecer a continuación.
 
-Pueden existir de distintos órdenes según el número anterior de palabras que se tienen en cuenta para la predicción. Primer orden tendría en cuenta una palabra (Token -> Predicción), segundo orden dos (Token -> Token -> Predicción)...
+Pueden existir de distintos órdenes según el número anterior de palabras que se tienen en cuenta para la predicción.
+
+- Primer Orden: Token -> Predicción 
+
+- Segundo Orden: Token -> Token -> Predicción
+
+- Orden N: Nº Tokens -> Predicción
 
 
 ### Ventajas e Inconvenientes
